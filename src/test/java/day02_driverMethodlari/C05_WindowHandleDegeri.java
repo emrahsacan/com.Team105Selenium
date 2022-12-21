@@ -7,7 +7,7 @@ public class C05_WindowHandleDegeri {
 
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver.exe");
         WebDriver driver= new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.amazon.com");

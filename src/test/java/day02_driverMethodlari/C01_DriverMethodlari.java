@@ -10,7 +10,7 @@ public class C01_DriverMethodlari {
         // Biz browser'lari olusturdugumuz driver sayesinde otomate edebiliyoruz
         // Bunun icin her testin basinda mutlaka driver objesi olusturacagiz
 
-        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver.exe");
         WebDriver driver= new ChromeDriver();
 
         driver.get("https://www.amazon.com");
